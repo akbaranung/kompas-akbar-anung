@@ -1,4 +1,4 @@
-# my-app
+# web-kompas-karier
 
 ## Project setup
 ```

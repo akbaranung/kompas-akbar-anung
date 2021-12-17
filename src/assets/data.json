@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "Senior Reasearch",
+    "location":"Jakarta Selatan",
+    "category": "full time",
+    "divisi" : "HR"
+  },
+  {
+    "id": 1,
+    "name": "Web Development",
+    "location":"Jakarta Selatan",
+    "category": "full time",
+    "divisi": "IT"
+  },
+  {
+    "id": 2,
+    "name": "Marketing",
+    "location":"Jakarta Selatan",
+    "category": "full time",
+    "divisi": "Marketing"
+  },
+  {
+    "id": 3,
+    "name": "Graphic Designer",
+    "location":"Jakarta Selatan",
+    "category": "full time",
+    "divisi": "Design"
+  },
+  {
+    "id": 4,
+    "name": "Business Development",
+    "location":"Jakarta Selatan",
+    "category": "full time",
+    "divisi": "Manajemen"
+  }
+]
