@@ -35,7 +35,8 @@ p {
   color: white;
 }
 h2 {
-  font-weight: 600;
+  font-weight: 800;
+  color: white;
 }
 .btn,
 .btn-primary {

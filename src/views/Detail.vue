@@ -1,8 +1,10 @@
 <template>
   <div class="detail">
     <Navbar />
+    <HeroDetail />
     <BreadCrumbDetail />
-    <h2>{{ karierList.divisi }}</h2>
+    <DetailKarier />
+    <Footer />
   </div>
 </template>
 
@@ -11,25 +13,19 @@
 
 <script>
 import Navbar from "@/components/Navbar.vue";
-import jobData from "../assets/data.json";
+import HeroDetail from "@/components/HeroDetail.vue";
 import BreadCrumbDetail from "@/components/BreadCrumbDetail.vue";
+import DetailKarier from "@/components/DetailKarier.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Detail",
   components: {
     Navbar,
+    HeroDetail,
     BreadCrumbDetail,
-  },
-  data: function () {
-    return {
-      karierList: jobData[this.$route.params.id],
-    };
+    DetailKarier,
+    Footer,
   },
 };
 </script>
-
-<style scoped>
-h2 {
-  margin-top: 150px;
-}
-</style>

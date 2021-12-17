@@ -46,7 +46,7 @@ export default {
 <style scoped>
 section.breadcrumb {
   /* background-color: #6c63ff; */
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 nav.breadcrumb {

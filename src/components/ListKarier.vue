@@ -10,7 +10,7 @@
           <div class="row">
             <div class="col-md-4">
               <p class="posisi">{{ karier.name }}</p>
-              <p>PT Kompas Media Nusantara</p>
+              <p>{{karier.perusahaan}}</p>
             </div>
             <div class="col-md-4">
               <b-icon icon="geo-alt-fill"></b-icon> {{ karier.location }}
