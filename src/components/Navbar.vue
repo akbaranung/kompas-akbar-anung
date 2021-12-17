@@ -17,21 +17,29 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#tujuan">Tujuan Kami</a>
+              <router-link class="nav-link" aria-current="true" to="/#tujuan"
+                >Tujuan Kami</router-link
+              >
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/loker"
+              <router-link class="nav-link" aria-current="true" to="/loker"
                 >Lowongan Kerja</router-link
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nilai-nilai Kompas</a>
+              <router-link class="nav-link" data-toggle="tab" to="/#nilai"
+                >Nilai-nilai Kompas</router-link
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Keseharian Kami</a>
+              <router-link class="nav-link" to="/#keseharian"
+                >Keseharian Kami</router-link
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Mengenal Kami</a>
+              <router-link class="nav-link" to="/#mengenal"
+                >Mengenal Kami</router-link
+              >
             </li>
           </ul>
         </div>
@@ -57,6 +65,13 @@ export default {
 }
 nav {
   background-color: #6c63ff;
+}
+
+.router-link-exact-active {
+  color: #c79304 !important;
+  background: white;
+  border-radius: 5px;
+  transition: 0.5s;
 }
 </style>
 

@@ -6,11 +6,11 @@
       </div>
 
       <div class="row" v-for="karier in karierList" v-bind:key="karier.id">
-        <dic class="card">
+        <div class="card">
           <div class="row">
             <div class="col-md-4">
               <p class="posisi">{{ karier.name }}</p>
-              <p>{{karier.perusahaan}}</p>
+              <p>{{ karier.perusahaan }}</p>
             </div>
             <div class="col-md-4">
               <b-icon icon="geo-alt-fill"></b-icon> {{ karier.location }}
@@ -24,7 +24,7 @@
               ></router-link>
             </div>
           </div>
-        </dic>
+        </div>
       </div>
     </div>
   </div>
