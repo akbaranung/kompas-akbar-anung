@@ -67,7 +67,7 @@ nav {
   background-color: #6c63ff;
 }
 
-.router-link-exact-active {
+li .router-link-exact-active {
   color: #c79304 !important;
   background: white;
   border-radius: 5px;
